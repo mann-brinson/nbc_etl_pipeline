@@ -1,0 +1,14 @@
+curl 'https://rarbg.to/top100.php?category%5b%5d=14&category%5b%5d=15&category%5b%5d=16&category%5b%5d=17&category%5b%5d=21&category%5b%5d=22&category%5b%5d=42&category%5b%5d=44&category%5b%5d=45&category%5b%5d=46&category%5b%5d=47&category%5b%5d=48' \
+  -H 'Connection: keep-alive' \
+  -H 'Cache-Control: max-age=0' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'Sec-Fetch-Site: none' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Accept-Language: en-US,en;q=0.9,la;q=0.8' \
+  -H 'Cookie: gaDts48g=q8h5pp9t; tcc; aby=2; gaDts48g=q8h5pp9t; skt=RP3CKmw57p; skt=RP3CKmw57p' \
+  --compressed \
+  -o parent.html
